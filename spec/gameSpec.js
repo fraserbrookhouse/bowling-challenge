@@ -7,10 +7,10 @@ describe('Game', function () {
     frame = new Frame();
   });
 
-  describe("addFrame()", function () {
-    it("adds frame object to frames array", function () {
-      game.addFrame(frame)
-      expect(game.getFrames().length).toEq(1)
-    })
-  })
+  describe('addFrame()', function () {
+    it('adds frame object to frames array', function () {
+      game.addFrame(frame);
+      expect(game.getFrames()).toContain(frame);
+    });
+  });
 });
