@@ -17,7 +17,7 @@ So I can see my progress towards my final score
 I want a rolling tally of my total score
 ```
 
-###Diagram
+### Diagram
 
 
 ### Optional Extras
